@@ -1,7 +1,7 @@
 # sing-box-yes
 CN|[EN](./README_EN.md)  
 
-方便快捷的安装、管理sing-box:100:  
+方便快捷的安装、管理sing-box
 
 sing-box是一个新的通用代理平台,对标*ray core与clash,且具有许多新的[特性](https://sing-box.sagernet.org/features/),目前支持以下协议:  
 
@@ -31,7 +31,7 @@ sing-box是一个新的通用代理平台,对标*ray core与clash,且具有许�
 - SSH
 - DNS 
 
-针对sing-box的更多内容,请点击这里:point_right:[official site](https://sing-box.sagernet.org/)
+针对sing-box的更多内容,请点击这里:[official site](https://sing-box.sagernet.org/)
 # 一键安装  
 ```
 bash <(curl -Ls https://raw.githubusercontent.com/TingTing1990/sing-box-yes/master/install.sh)
@@ -40,7 +40,7 @@ bash <(curl -Ls https://raw.githubusercontent.com/TingTing1990/sing-box-yes/mast
 
 如果你想安装某个特定版本(包括Pre-release),请使用以下命令,将`1.1-beta8`替换为特定版本号即可    
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/TingTing1990/sing-box-yes/master/install.sh) install 1.1-beta8
+bash <(curl -Ls https://raw.githubusercontent.com/TingTing1990/sing-box-yes/master/install.sh) install 1.12.12
 ```  
 如果在安装后想更新到最新的release版本,且保留原有的配置文件,请使用如下命令或通过菜单选项`2`进行更新  
 ```
@@ -151,6 +151,7 @@ sing-box run -c client_config.json
 # star:star2:
 
 [![Stargazers over time](https://starchart.cc/FranzKafkaYu/sing-box-yes.svg)](https://starchart.cc/FranzKafkaYu/sing-box-yes)
+
 
 
 
