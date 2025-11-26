@@ -1,42 +1,15 @@
 # sing-box-yes  
 [CN](./README.md)| EN  
-Install sing-box easily:100:  
 
-sing-box is a universal proxy platform which supports many protocols.Currently it supports:  
+Install sing-box easily
 
-`inbound`： 
-- Shadowsocks(including shadowsocks2022)    
-- Vmess  
-- Trojan  
-- Naive  
-- Hysteria  
-- ShadowTLS  
-- Tun  
-- Redirect  
-- TProxy  
-- Socks  
-- HTTP  
-
-`outbound`:  
-- Shadowsocks(including shadowsocks2022)    
-- Vmess  
-- Trojan 
-- Wireguard  
-- Hysteria  
-- ShadowTLS  
-- ShadowsocksR  
-- VLESS  
-- Tor  
-- SSH
-
-For more details,please check here:point_right:[official site](https://sing-box.sagernet.org/)
 # usage
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/FranzKafkaYu/sing-box-yes/master/install.sh)
+bash <(curl -Ls https://raw.githubusercontent.com/TingTing1990/sing-box-yes/master/install.sh)
 ```    
 If you want install specific version,plz use coomand line as follows:
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/FranzKafkaYu/sing-box-yes/master/install.sh) install 1.0.3
+bash <(curl -Ls https://raw.githubusercontent.com/TingTing1990/sing-box-yes/master/install.sh) install 1.12.12
 ```
 # quick start
 Just type `sing-box` to enter control menu,as follows showed here:
@@ -74,5 +47,6 @@ sing-box-v0.0.1 管理脚本
 # examples  
 - client_config.json will be used as client config,inbound:`tun`,outbound:`shadowsocks`  
 - server_config.json will be used as server config,inbound:`shadowcoks`,outbound:`direct`  
+
 
 
