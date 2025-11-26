@@ -29,9 +29,6 @@ sing-box-v0.0.1 管理脚本
 ————————————————
   A. 设置 sing-box 开机自启
   B. 取消 sing-box 开机自启
-————————————————
-  C. 一键开启 bbr 
-  D. 一键申请SSL证书
  
 [INF] 版本信息:sing-box 1.0.4.d2add33 (go1.19.1, linux/amd64, CGO disabled) 
 [INF] sing-box状态: 已运行
@@ -47,6 +44,7 @@ sing-box-v0.0.1 管理脚本
 # examples  
 - client_config.json will be used as client config,inbound:`tun`,outbound:`shadowsocks`  
 - server_config.json will be used as server config,inbound:`shadowcoks`,outbound:`direct`  
+
 
 
 
