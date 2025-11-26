@@ -43,9 +43,6 @@ sing-box update 1.12.12
   C. 取消 sing-box 开机自启
   D. 设置 sing-box 定时清除日志&重启
   E. 取消 sing-box 定时清除日志&重启
-————————————————
-  F. 一键开启 bbr 
-  G. 一键申请SSL证书
  
 [INF] 版本信息:sing-box 1.0.4.d2add33 (go1.19.1, linux/amd64, CGO disabled) 
 [INF] sing-box状态: 已运行
@@ -122,6 +119,7 @@ sing-box run -c client_config.json
 # star:star2:
 
 [![Stargazers over time](https://starchart.cc/FranzKafkaYu/sing-box-yes.svg)](https://starchart.cc/FranzKafkaYu/sing-box-yes)
+
 
 
 
