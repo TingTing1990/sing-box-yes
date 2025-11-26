@@ -3,35 +3,6 @@ CN|[EN](./README_EN.md)
 
 方便快捷的安装、管理sing-box
 
-sing-box是一个新的通用代理平台,对标*ray core与clash,且具有许多新的[特性](https://sing-box.sagernet.org/features/),目前支持以下协议:  
-
-`入站`： 
-- Shadowsocks(including shadowsocks2022)    
-- Vmess  
-- Trojan  
-- Naive  
-- Hysteria  
-- ShadowTLS  
-- Tun  
-- Redirect  
-- TProxy  
-- Socks  
-- HTTP  
-
-`出站`:  
-- Shadowsocks(including shadowsocks2022)    
-- Vmess  
-- Trojan 
-- Wireguard  
-- Hysteria  
-- ShadowTLS  
-- ShadowsocksR  
-- VLESS  
-- Tor  
-- SSH
-- DNS 
-
-针对sing-box的更多内容,请点击这里:[official site](https://sing-box.sagernet.org/)
 # 一键安装  
 ```
 bash <(curl -Ls https://raw.githubusercontent.com/TingTing1990/sing-box-yes/master/install.sh)
@@ -151,6 +122,7 @@ sing-box run -c client_config.json
 # star:star2:
 
 [![Stargazers over time](https://starchart.cc/FranzKafkaYu/sing-box-yes.svg)](https://starchart.cc/FranzKafkaYu/sing-box-yes)
+
 
 
 
