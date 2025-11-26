@@ -623,18 +623,6 @@ disable_auto_clear_log() {
     fi
 }
 
-#enable bbr
-enable_bbr() {
-    # temporary workaround for installing bbr
-    bash <(curl -L -s https://raw.githubusercontent.com/teddysun/across/master/bbr.sh)
-    echo ""
-}
-
-#for cert issue
-ssl_cert_issue() {
-    bash <(curl -Ls https://raw.githubusercontent.com/FranzKafkaYu/BashScripts/main/SSLAutoInstall/SSLAutoInstall.sh)
-}
-
 #show help
 show_help() {
     echo "sing-box-v${SING_BOX_YES_VERSION} 管理脚本使用方法: "
@@ -675,12 +663,9 @@ show_menu() {
   ${green}C.${plain} 取消 sing-box 开机自启
   ${green}D.${plain} 设置 sing-box 定时清除日志&重启
   ${green}E.${plain} 取消 sing-box 定时清除日志&重启
-————————————————
-  ${green}F.${plain} 一键开启 bbr 
-  ${green}G.${plain} 一键申请SSL证书
  "
     show_status
-    echo && read -p "请输入选择[0-G]:" num
+    echo && read -p "请输入选择[0-E]:" num
 
     case "${num}" in
     0)
@@ -728,14 +713,8 @@ show_menu() {
     E)
         disable_auto_clear_log
         ;;
-    F)
-        enable_bbr && show_menu
-        ;;
-    G)
-        ssl_cert_issue
-        ;;
     *)
-        LOGE "请输入正确的选项 [0-G]"
+        LOGE "请输入正确的选项 [0-E]"
         ;;
     esac
 }
