@@ -89,26 +89,3 @@ Linux下请以Root用户运行客户端:
 ```
 sing-box run -c client_config.json
 ```  
-
-# 配置样例    
-- [shadowsocks2022](https://github.com/FranzKafkaYu/sing-box-yes/tree/main/shadowsocks2022)  
-- [shadowsocks2022+shadowTLS](https://github.com/FranzKafkaYu/sing-box-yes/tree/main/shadowsocks2022_with_shadowTLS)  
-- [trojan](https://github.com/FranzKafkaYu/sing-box-yes/tree/main/trojan)  
-- [hysteria](https://github.com/FranzKafkaYu/sing-box-yes/tree/main/hysteria)   
-- [vmess](https://github.com/FranzKafkaYu/sing-box-yes/tree/main/vmess)  
-
-使用时请自行按照模板修改服务端与客户端的配置    
-
-# 支持系统  
-- Ubuntu  
-- Centos  
-- Debian  
-- Rocky  
-- Almalinux    
-
-
-
-
-
-
-
