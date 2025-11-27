@@ -106,22 +106,6 @@ sing-box run -c client_config.json
 - Rocky  
 - Almalinux    
 
-# 客户端  
-
-目前sing-box仍在开发中，客户端支持尚未完善，大多数时候你都可以通过手动运行程序来进行使用。如果你需要一些客户端，可以尝试以下客户端  
-- [V2rayN](https://github.com/2dust/v2rayN/releases/tag/5.36)  
-- [SingBox](https://github.com/daodao97/SingBox)  
-
-# 致谢  
-[SagerNet/sing-box](https://github.com/SagerNet/sing-box)  
-
-# star:star2:
-
-[![Stargazers over time](https://starchart.cc/FranzKafkaYu/sing-box-yes.svg)](https://starchart.cc/FranzKafkaYu/sing-box-yes)
-
-
-
-
 
 
 
