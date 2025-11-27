@@ -1,5 +1,4 @@
 # sing-box-yes
-CN|[EN](./README_EN.md)  
 
 方便快捷的安装、管理sing-box
 
@@ -119,6 +118,7 @@ sing-box run -c client_config.json
 # star:star2:
 
 [![Stargazers over time](https://starchart.cc/FranzKafkaYu/sing-box-yes.svg)](https://starchart.cc/FranzKafkaYu/sing-box-yes)
+
 
 
 
