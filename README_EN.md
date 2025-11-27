@@ -1,5 +1,4 @@
 # sing-box-yes  
-[CN](./README.md)| EN  
 
 Install sing-box easily
 
@@ -44,6 +43,7 @@ sing-box-v0.0.1 管理脚本
 # examples  
 - client_config.json will be used as client config,inbound:`tun`,outbound:`shadowsocks`  
 - server_config.json will be used as server config,inbound:`shadowcoks`,outbound:`direct`  
+
 
 
 
