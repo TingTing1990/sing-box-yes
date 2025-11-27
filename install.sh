@@ -5,8 +5,8 @@
 #Usage：
 #
 #Author:FranzKafka
-#Date:2022-09-15
-#Version:0.0.1
+#Date:2025-11-26
+#Version:0.0.2
 #####################################################
 
 #Some basic definitions
