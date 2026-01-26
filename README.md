@@ -8,17 +8,17 @@ bash <(curl -Ls https://raw.githubusercontent.com/TingTing1990/sing-box-yes/mast
 ```    
 执行后会自行显示管理菜单，通过菜单选项`1`将会自动安装最新release版本。与此同时，你也可以通过`sing-box install`来安装最新版本    
 
-如果你想安装某个特定版本(包括Pre-release),请使用以下命令,将`1.12.12`替换为特定版本号即可    
+如果你想安装某个特定版本(包括Pre-release),请使用以下命令,将`1.12.17`替换为特定版本号即可    
 ```
-bash <(curl -Ls https://raw.githubusercontent.com/TingTing1990/sing-box-yes/master/install.sh) install 1.12.12
+bash <(curl -Ls https://raw.githubusercontent.com/TingTing1990/sing-box-yes/master/install.sh) install 1.12.17
 ```  
 如果在安装后想更新到最新的release版本,且保留原有的配置文件,请使用如下命令或通过菜单选项`2`进行更新  
 ```
 sing-box update 
 ```
-如果在安装后想更新到某个特定版本(包括Pre-release),且保留原有的配置文件,请使用如下命令进行更新,将`1.12.12`替换为特定版本号即可
+如果在安装后想更新到某个特定版本(包括Pre-release),且保留原有的配置文件,请使用如下命令进行更新,将`1.12.17`替换为特定版本号即可
 ```
-sing-box update 1.12.12
+sing-box update 1.12.17
 ```
 # 快捷方式
 在服务器command line内输入sing-box回车即可进入管理菜单,当前菜单内容如下所示：  
@@ -89,3 +89,4 @@ Linux下请以Root用户运行客户端:
 ```
 sing-box run -c client_config.json
 ```  
+
