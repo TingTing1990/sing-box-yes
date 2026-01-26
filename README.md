@@ -24,7 +24,7 @@ sing-box update 1.12.17
 在服务器command line内输入sing-box回车即可进入管理菜单,当前菜单内容如下所示：  
 
 ```
-  sing-box-v0.0.1 管理脚本
+  sing-box-v0.0.2 管理脚本
   0. 退出脚本
 ————————————————
   1. 安装 sing-box 服务
@@ -43,7 +43,7 @@ sing-box update 1.12.17
   D. 设置 sing-box 定时清除日志&重启
   E. 取消 sing-box 定时清除日志&重启
  
-[INF] 版本信息:sing-box 1.0.4.d2add33 (go1.19.1, linux/amd64, CGO disabled) 
+[INF] 版本信息:sing-box 1.12.17
 [INF] sing-box状态: 已运行
 [INF] sing-box是否开机自启: 是
 [INF] ##################### 
@@ -89,4 +89,5 @@ Linux下请以Root用户运行客户端:
 ```
 sing-box run -c client_config.json
 ```  
+
 
